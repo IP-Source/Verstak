@@ -1,1 +1,103 @@
-h1 {color: aquamarine;}
+/* Основная разметка */
+.body-pg {
+    margin: 0;
+    /* background-color: white; */
+}
+
+/* Центруем содержимое */
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    outline: brown solid 1px;
+}
+
+/* Шапка */
+.header-pg {
+    padding: 18px 0;
+    background-color: #222222;
+    color: azure;
+}
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searh {
+    padding-left: 40px;
+}
+
+.cart {
+    padding-left: 40px;
+}
+
+/* Промо-блок */
+.promo {
+    background-color: #F1E4E6;
+    height: 538px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.promo_content {
+    display: flex;
+    float: right;
+}
+
+
+
+.promo_h1 {
+    position: absolute;
+    top: 375px;
+    left: 254px;
+    padding-left: 12px;
+    border-left: 12px solid rgba(241, 109, 127, 1);
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+}
+
+.promo_h1::first-line {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+}
+
+span {
+    color: rgba(241, 109, 127, 1);
+    font-weight: 900;
+}
+  /* На этом блоке я потух) Хотелось бы детально разобрать */
+
+
+/* Оффер */
+.offer {
+    padding: 65px 0;
+}
+
+/* Товары*/
+.products {
+    padding: 30px 0 95px 0;
+}
+
+/* Преимущества */
+.feature {
+    background-color: #222224;
+    color: #F1E4E6;
+    padding: 105px 0 105px 0;
+}
+
+/* Обратная связь */
+.feedback {
+    background-color: #f4f4f4;
+    padding: 105px 0 156px 0;
+}
+
+/* Подвал */
+.footer-pg {
+    background-color: #222222;
+    color: azure;
+    padding: 23px 0 23px 0;
+}
